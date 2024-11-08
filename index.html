@@ -257,11 +257,15 @@
 
     }
     .activities {
-        background-color:white;
-        color: black;
-        text-align:center;
-        padding: 50px;
-    }
+  word-wrap: break-word;       /* Break long words */
+  overflow-wrap: break-word;   /* Handle word wrapping */
+  white-space: normal;         /* Allow text to wrap */
+  max-width: 100%;             /* Ensure container is responsive */
+  font-size: 16px;             /* Adjust font size as needed */
+  padding: 10px;
+  background-color: white;
+  color: black;
+}
     .def {
         background-color: paleturquoise;
         margin-top: 20px;
